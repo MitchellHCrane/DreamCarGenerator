@@ -27,25 +27,27 @@ const carImages = [
 const image = document.querySelector("img");
 const imgButton = document.getElementById("genBtn");
 const div = document.getElementById("resetBtn");
+const resetBtn = document.createElement("button");
 
 function generateDreamVehicle(array) {
-    let randomImg = Math.floor(Math.random() * array.length);
-    
-    image.setAttribute("src", array[randomImg]);
-    
-    const resetBtn = document.createElement("button");
-    
-    resetBtn.innerHTML = "Reset"
-    div.appendChild(resetBtn);
-    
-    resetBtn.onclick = function cont() {
-        document.getElementById("resetBtn").style.display = "inline";
-        resetBtn.parentNode.removeChild(resetBtn)
-        image.parentNode.removeChild(image)
-        location.reload();
-    }
-    
+  let randomImg = Math.floor(Math.random() * array.length);
+
+  image.setAttribute("src", array[randomImg]);
+
+  resetBtn.innerHTML = "Reset";
+  div.appendChild(resetBtn);
+
+  resetBtn.onclick = function cont() {
+    document.getElementById("resetBtn").style.display = "inline";
+    resetBtn.parentNode.removeChild(resetBtn);
+    image.setAttribute("src", "");
+    // location.reload();
+    clearReset();
+  };
 }
 
+function clearReset() {
+  resetBtn.innerHTML = "";
+}
 
 imgButton.addEventListener("click", () => generateDreamVehicle(carImages));
