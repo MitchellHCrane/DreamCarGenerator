@@ -1,0 +1,24 @@
+{
+  "name": "DreamCarGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitchellHCrane/DreamCarGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MitchellHCrane/DreamCarGenerator/issues"
+  },
+  "homepage": "https://github.com/MitchellHCrane/DreamCarGenerator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
