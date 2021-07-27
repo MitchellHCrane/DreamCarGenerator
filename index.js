@@ -24,13 +24,27 @@ const carImages = [
   "https://images6.alphacoders.com/845/thumb-1920-845041.jpg",
 ];
 
+const quotes = [
+  "Nice ride!",
+  "I like the color!",
+  "That is one quick car!",
+  "Take it for a spin!",
+  "Dream big!",
+  "0-60 in how many seconds?",
+];
+
 const image = document.querySelector("img");
 const imgButton = document.getElementById("genBtn");
 const div = document.getElementById("resetBtn");
 const resetBtn = document.createElement("button");
+const createH3 = document.createElement("h3");
 
 function generateDreamVehicle(array) {
   let randomImg = Math.floor(Math.random() * array.length);
+  let ranQuote = Math.floor(Math.random() * array.length);
+
+//   createH3.innerHTML = ranQuote;
+//   div.appendChild(createH3);
 
   image.setAttribute("src", array[randomImg]);
 
