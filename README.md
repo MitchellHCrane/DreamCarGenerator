@@ -1,8 +1,5 @@
 # DreamCarGenerator
 
-[Finish](https://user-images.githubusercontent.com/85514320/127212700-5f49848a-e4e5-4f47-bad4-178ea117c6e3.png)
-![Start](https://user-images.githubusercontent.com/85514320/127212717-2ef7f0a0-d627-48dd-b583-7d138b67d5fb.png)
-
 This app uses html, css, javascript, express, and Heroku.
 
 Now let's jump into the functionality of my web app
@@ -33,3 +30,9 @@ The setAtrribute method is invoked which sets the src of the image to an empty s
 And finally I invoked the clearReset method which resets the values.
 
 Thank you viewing my web app! Let me know if you have any questions or feedback by leaving a comment below. Thank you!
+
+Screenshots Below:
+
+[Start](https://user-images.githubusercontent.com/85514320/127212717-2ef7f0a0-d627-48dd-b583-7d138b67d5fb.png)
+
+[Finish](https://user-images.githubusercontent.com/85514320/127212700-5f49848a-e4e5-4f47-bad4-178ea117c6e3.png)
