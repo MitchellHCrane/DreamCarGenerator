@@ -47,7 +47,6 @@ function generateDreamVehicle(array) {
   let randomImg = Math.floor(Math.random() * array.length);
   let ranQuote = Math.floor(Math.random() * quotes.length);
   h3Div.innerHTML = quotes[ranQuote];
-  console.log(ranQuote);
 
   image.setAttribute("src", array[randomImg]);
 
@@ -57,8 +56,8 @@ function generateDreamVehicle(array) {
   resetBtn.onclick = function cont() {
     document.getElementById("resetBtn").style.display = "inline";
     resetBtn.parentNode.removeChild(resetBtn);
+    h3Div.innerHTML = "";
     image.setAttribute("src", "");
-    // location.reload();
     clearReset();
   };
 }
