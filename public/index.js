@@ -15,7 +15,7 @@ const carImages = [
 
   "https://i1.wp.com/d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/motor/2017/07/10/107152/2017-Ford-GT-white-main.jpg",
 
-  "https://www.carscoops.com/wp-content/uploads/2016/06/2017-nissan-gt-r-0.jpg",
+  "https://www.motortrend.com/uploads/sites/5/2020/08/2021-Nissan-GT-R-NISMO-front-three-quarter-motion.jpg",
 
   "https://www.supercars.net/blog/wp-content/uploads/2020/07/2019-Bugatti-Chiron-Sport-110-ans-Bugatti-003-1080.jpg",
 

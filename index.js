@@ -46,8 +46,8 @@ console.log(h3Div);
 function generateDreamVehicle(array) {
   let randomImg = Math.floor(Math.random() * array.length);
   let ranQuote = Math.floor(Math.random() * quotes.length);
+  
   h3Div.innerHTML = quotes[ranQuote];
-
   image.setAttribute("src", array[randomImg]);
 
   resetBtn.innerHTML = "Reset";
